@@ -1,0 +1,81 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+    display: flex;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
+
+header .hamburger {
+    cursor: pointer;
+    font-size: 25px;
+    color: #39f;
+}
+
+#side-menu {
+    width: 340px;
+    height: 100%;
+    background-color: #111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#side-menu footer {
+    text-align: center;
+    padding: 15px;
+}
+
+#side-menu a:visited {
+    color: #39f;
+}
+
+.selectedLocation {
+    background-color: #333;
+}
+
+input {
+    padding: 5px 0;
+    margin: 19px;
+}
+
+#side-menu ul {
+    padding: 0;
+    flex: 1;
+}
+
+#side-menu li {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 0px 5px 20px;
+}
+
+#side-menu li:hover {
+    background-color: #333;
+}
+
+#main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.footnote {
+
+}
